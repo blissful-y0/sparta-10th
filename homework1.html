@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+        <!-- style -->
+        <style type="text/css">
+            .wrap {
+                width: 600px;
+                padding-top: 25px;
+                margin: auto;
+                align-content: center;
+
+            }
+            h2 {
+                margin-bottom: 20px;
+            }
+            .
+        </style>
+        <script>
+            function order() {
+                alert('주문이 완료되었습니다')
+            }
+        </script>
+<!--        구글폰트-->
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&display=swap" rel="stylesheet">
+        <title>나홀로 쇼핑몰</title>
+    </head>
+    <body>
+        <div class="wrap"><!--            캣타워 이미지-->
+            <div style="text-align: center;">
+                <img src="https://secure.img1-fg.wfcdn.com/im/21431246/compr-r85/1686/16866953/29-geneva-cat-tree.jpg"
+                     style="width: 100%; height: auto">
+            </div>
+            <br>
+            <!--        상품 설명-->
+            <div class="product.name">
+                <h1 class="/폰트 이름/"
+                    style="font-size: 32px; display: inline-block; font-weight: bold">상품 제목</h1>
+                <h1 class="/폰트 이름/"
+                    style="font-size: 18px; display: inline-block;">&nbsp;&nbsp;가격: 1,000,000원 / 개</h1>
+                <p>
+                    이 상품으로 말할 것 같으면 용왕이 먹지 못한 토끼의 간을 찾아 어쩌구 궁시렁 사실 잘 모르겠고 고양이가 몹시 귀엽답니다.
+                    <br>
+                    지금 이 상품을 구매하면 고양이는 따라오지 않습니다!
+                </p>
+            </div>
+            <!--        주문하기-->
+            <div class="product.order">
+                <h2 class="/폰트 이름/"
+                    style="font-size: 32px; font-weight: bold;">주문하기</h2>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">주문자 이름</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                           aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">수량</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>--수량을 선택해 주세요--</option>
+                        <option value="1">1개</option>
+                        <option value="2">2개</option>
+                        <option value="3">3개</option>
+                        <option value="4">4개</option>
+                    </select>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">주소</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                           aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">전화번호</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                           aria-describedby="basic-addon1">
+                </div>
+<!--                주문하기 버튼-->
+            <div style="text-align: center">
+                <button type="button" class="btn btn-outline-primary btn-lg" onclick="order()">주문하기</button>
+            </div>
+            </div>
+    </body>
+</html>
